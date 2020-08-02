@@ -22,7 +22,7 @@ Another reason for choosing the Software Engineering is the privilege to be expo
 Software Engineering is a profession at high demand, and the demand continues to grow.
 In the modern world, surrounded by information technologies every step of the way, the need of the Software engineers is rising as the technologies are constantly evolving. I see myself as a little part of this big machinery and I am thinking wouldn’t be great if I can contribute somehow to the smooth process and functioning of this big machinery. A large part of our reality has shifted to the Internet, where we can do literally everything: meet, communicate, make purchases in online stores, learn, social networking, websites, smart home - the list is endless.
 
-In order to ensure smooth operation of all these products and forms of human life and activity, there is one professional that will be always needed and will never get outdated – Software Engineering. 
+In order to ensure smooth operation of all these products and forms of human life and activity, there is one profession that will be always needed and will never get outdated – Software Engineering. 
 
 
 •	Opportunity for professional development and career growth
