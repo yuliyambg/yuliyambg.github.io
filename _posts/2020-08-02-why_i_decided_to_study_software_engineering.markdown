@@ -9,7 +9,7 @@ permalink:  why_i_decided_to_study_software_engineering
 
 I am new to tech ... I am coming from the business field, however I always dreamt about a  career where innovation is bigger part of the work. Here are some of the main reasons why I decided to pivot to coding:
 
-•	Creativity and problem solving
+•	Creativity and problem solving <br/>
 
 Programming is involving creativity and problem solving. I enjoy intellectual work, therefore I think this is the right path for me. Facing challenging problems and finding an elegant solution for them is bringing me satisfaction and feels rewarding.
 
