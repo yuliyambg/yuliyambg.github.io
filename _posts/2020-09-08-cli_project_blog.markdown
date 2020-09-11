@@ -14,8 +14,7 @@ The most intimidating part as “Avi” says is the “Blank file” when you ha
 
 I started the project by thinking what would be a useful tool that user can use and what type of problem will solve and who would be the user of my Gem. Considering the impact of Covid-19, I though wouldn’t be great if I can build a Gem helping people to find clinics that are providing Covid-19 treatment, by inputting different search criteria’s. This Gem could be also used from a different type of users – larger vaccine/medication distribution companies who can easily find clinics in certain area’s by inputting search criteria’s and supply their vaccine/medicine to particular clinics/ targeted areas. I am located in NY and after research decided to scrape : 
 
-(https://www.health.ny.gov/regulations/hcra/provider/provcdtc.htm)
-
+[](https://www.health.ny.gov/regulations/hcra/provider/provcdtc.htm)
 
 For this project I used Ruby mine IDE. The first step was to make sure the web site is scrapable. I used TheGingertonic ScraperChecker tool.  The next step was to set up the Gem skeleton by using `bundle gem`. With this all folders and structure were set up. The most challenging part for me throughout the entire project was to set up correctly “ny_clinics.gemspec” file and environment file with the dependencies  where I spent a lot of time to require_relative files.  After I was set with the environment and gemspec I started to code.
 
