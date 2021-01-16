@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Login with Omniauth Google Strategy"
-date:       2021-01-16 22:57:53 +0000
+date:       2021-01-16 17:57:54 -0500
 permalink:  login_with_omniauth_google_strategy
 ---
 
