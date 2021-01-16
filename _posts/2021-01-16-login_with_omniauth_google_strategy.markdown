@@ -69,5 +69,5 @@ Go to:
 https://console.cloud.google.com
 
 •	Click “Create” to set up a new Project. 
-![Click!](https://doc-0k-8o-docs.googleusercontent.com/docs/securesc/7aa7j20sm6bejrd8dbp7tqlp9t6956ed/8e4oofqiahiufce1i5g4db7o253o8kvm/1610837775000/05285008826416365287/17784173641635347597Z/1nFU97Z30OG8_gmvHTQ8gBaFz13zD1ww0?nonce=3bq6hslunif50&user=17784173641635347597Z&hash=57s8v1uefj4pjreg1etitjjvep3f7jqd)!
+<img src="https://drive.google.com/uc?id=1nFU97Z30OG8_gmvHTQ8gBaFz13zD1ww0"></img>
  
