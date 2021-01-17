@@ -22,7 +22,7 @@ gem 'dotenv-rail
 
 Next run bundle. 
 
-In 'config/initializers', create a file called 'omniauth.rb' and put in the following lines:
+In 'config/initializers', create a file called 'omniauth.rb' and write in the following lines:
 
 ```
 Rails.application.config.middleware.use OmniAuth::Builder do
@@ -70,4 +70,61 @@ https://console.cloud.google.com
 
 •	Click “Create” to set up a new Project. 
 <kbd><img src="https://drive.google.com/uc?id=1nFU97Z30OG8_gmvHTQ8gBaFz13zD1ww0" ></kbd>
+
+If you have already created other projects, go to the navbar and under the dropdown option where you can select existing project you will be offered option to create another ‘New Project’.
+
+<kbd><img src="https://drive.google.com/uc?id=1oM2dx9ixjvY7kmykzoKrw7r3pUXW3RnO" ></kbd>
+
+Enter Project name and create/select organization if applicable (for example if you are doing the project for a company).
+
+<kbd><img src="https://drive.google.com/uc?id=1QY-A84Bguqdj8IT0zQTe4j5Cz3H6MeaW" ></kdb>
+
+
+<kbd><img src="https://drive.google.com/uc?id=1ILapqHhZzRCbxBqFQ1EuB_hUJHQQnw46" ></kdb>
+
+Under “API & Services”, click “OAuth consent screen” tab
+
+Make selection: How you want to register your app Internal or External
+
+<kbd><img src="https://drive.google.com/uc?id=1PgcZLh6OpQ02fiaSlj7jLkNEIpCwKTA5" ></kdb>
+
+Complete the 4 steps under the Oauth consent screen. Make sure to list the App name, User Support email. 
+Under Application Homepage make sure to enter the url for the port you will be using, for example:
+
+http://localhost:3000
+
+<kbd><img src="https://drive.google.com/uc?id=14zBZYsysqgpAIHpBVOVE6f_pE4GZ4KiR" ></kdb>
+
+Scroll down, click 'Save and Continue'
+<kbd><img src="https://drive.google.com/uc?id=1K910oun60i4ZzFnQiId-EJyOYG5mTpyH" ></kdb>
+
+After the 4 steps under the OAuth consent screen are completed, 
+Go to Credentials and from the ‘+CREATE CREDENTIALS’ selects ‘OAuth client ID’
+
+<kbd><img src="https://drive.google.com/uc?id=1MGgEdLaZx5_7M7Te8Pd5uBMBDy7Ee2gO" ></kdb>
+
+On below screen, Select Application type as “Web Application” and under URI enter:
+http://localhost:3000/auth/google_oauth2/callback
+
+<kbd><img src="https://drive.google.com/uc?id=1ymtKjY4uwBOHH7CvoRWIP9RopuQIK5R7" ></kdb>
+
+After clicking on “Create button” you will be presented by a window showing your Client ID and Client Secret:
+
+<kbd><img src="https://drive.google.com/uc?id=1TFReBJ5iCKveHLUIRwp6UJv-WhB_batA" ></kdb>
+
+Now add your Client ID and Client Secret to the  .env  file.
+
+Hope you find this guide helpful and Good luck!
+
+
+
+
+
+
+
+
+
+
+
+
  
