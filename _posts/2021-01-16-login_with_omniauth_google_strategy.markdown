@@ -77,40 +77,40 @@ If you have already created other projects, go to the navbar and under the dropd
 
 Enter Project name and create/select organization if applicable (for example if you are doing the project for a company).
 
-<kbd><img src="https://drive.google.com/uc?id=1QY-A84Bguqdj8IT0zQTe4j5Cz3H6MeaW" ></kdb>
+<kbd><img src="https://drive.google.com/uc?id=1QY-A84Bguqdj8IT0zQTe4j5Cz3H6MeaW" ></kbd>
 
 
-<kbd><img src="https://drive.google.com/uc?id=1ILapqHhZzRCbxBqFQ1EuB_hUJHQQnw46" ></kdb>
+<kbd><img src="https://drive.google.com/uc?id=1ILapqHhZzRCbxBqFQ1EuB_hUJHQQnw46" ></kbd>
 
 Under “API & Services”, click “OAuth consent screen” tab
 
 Make selection: How you want to register your app Internal or External
 
-<kbd><img src="https://drive.google.com/uc?id=1PgcZLh6OpQ02fiaSlj7jLkNEIpCwKTA5" ></kdb>
+<kbd><img src="https://drive.google.com/uc?id=1PgcZLh6OpQ02fiaSlj7jLkNEIpCwKTA5" ></kbd>
 
 Complete the 4 steps under the Oauth consent screen. Make sure to list the App name, User Support email. 
 Under Application Homepage make sure to enter the url for the port you will be using, for example:
 
 http://localhost:3000
 
-<kbd><img src="https://drive.google.com/uc?id=14zBZYsysqgpAIHpBVOVE6f_pE4GZ4KiR" ></kdb>
+<kbd><img src="https://drive.google.com/uc?id=14zBZYsysqgpAIHpBVOVE6f_pE4GZ4KiR" ></kbd>
 
 Scroll down, click 'Save and Continue'
-<kbd><img src="https://drive.google.com/uc?id=1K910oun60i4ZzFnQiId-EJyOYG5mTpyH" ></kdb>
+<kbd><img src="https://drive.google.com/uc?id=1K910oun60i4ZzFnQiId-EJyOYG5mTpyH" ></kbd>
 
 After the 4 steps under the OAuth consent screen are completed, 
 Go to Credentials and from the ‘+CREATE CREDENTIALS’ selects ‘OAuth client ID’
 
-<kbd><img src="https://drive.google.com/uc?id=1MGgEdLaZx5_7M7Te8Pd5uBMBDy7Ee2gO" ></kdb>
+<kbd><img src="https://drive.google.com/uc?id=1MGgEdLaZx5_7M7Te8Pd5uBMBDy7Ee2gO" ></kbd>
 
 On below screen, Select Application type as “Web Application” and under URI enter:
 http://localhost:3000/auth/google_oauth2/callback
 
-<kbd><img src="https://drive.google.com/uc?id=1ymtKjY4uwBOHH7CvoRWIP9RopuQIK5R7" ></kdb>
+<kbd><img src="https://drive.google.com/uc?id=1ymtKjY4uwBOHH7CvoRWIP9RopuQIK5R7" ></kbd>
 
 After clicking on “Create button” you will be presented by a window showing your Client ID and Client Secret:
 
-<kbd><img src="https://drive.google.com/uc?id=1TFReBJ5iCKveHLUIRwp6UJv-WhB_batA" ></kdb>
+<kbd><img src="https://drive.google.com/uc?id=1TFReBJ5iCKveHLUIRwp6UJv-WhB_batA" ></kbd>
 
 Now add your Client ID and Client Secret to the  .env  file.
 
