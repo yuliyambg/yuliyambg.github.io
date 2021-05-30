@@ -1,13 +1,14 @@
 ---
 layout: post
 title:      "Happy Routing!"
-date:       2021-05-30 16:53:50 +0000
+date:       2021-05-30 12:53:50 -0400
 permalink:  happy_routing
 ---
 
 
-My 10 months journey with Flatiron school is about to end. My final project is using React-Redux Front end. In some components of my project, I was using links with anchor elements, clicking on them caused the whole page to reload, which was sending new `GET` fetch request to the API each time the link was clicked, which in turn resulted to URL’s showing incorrectly on the browser. This is how I thought about blogging about the React-Router and Link to concept.
+My 10 months journey with Flatiron school is about to end. My final project is using React-Redux Front end. In some components of my project, I was using links with anchor elements, clicking on them caused the whole page to reload, which was sending new `GET` fetch request to the API each time the link was clicked, which in turn resulted to URL’s showing incorrectly on the browser. I thought sharing this blog about React-Router and Link to concept might be helpfult if you came across similar issue while using links with anchor elemets in your React project.  
 
+React Router is a key component in any React project  that allows users to navigate through pages.
 As React Router's documentation states: React Router is a routing library for React that allows us to link to specific URLs then show or hide various components depending on which URL is displayed. 
 
 Let’s walk through a simple App example using React Router and Clickable Links.
